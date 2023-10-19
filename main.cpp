@@ -10,24 +10,24 @@ void ThongTinCaNhan(){
 	char chuyenNganh[25];
 	int tuoi;
 
-	printf("\nMoi ban nhap ho ten: ");
-    scanf("%s", &hoTen);  
-    printf("Moi ban nhap tuoi: ");
-    scanf("%d", &tuoi);  
-    printf("Moi ban nhap dia chi: ");
-    scanf("%s", &diaChi);  
-    printf("Moi ban nhap hoc ki: ");
-    scanf("%s", &hocKi); 
-	printf("Moi ban nhap chuyen nghanh: ");
-    scanf("%s", &chuyenNganh);  
+    	printf("\nMoi ban nhap ho ten: ");
+   	scanf("%s", &hoTen);  
+    	printf("Moi ban nhap tuoi: ");
+    	scanf("%d", &tuoi);  
+    	printf("Moi ban nhap dia chi: ");
+    	scanf("%s", &diaChi);  
+    	printf("Moi ban nhap hoc ki: ");
+    	scanf("%s", &hocKi); 
+    	printf("Moi ban nhap chuyen nghanh: ");
+    	scanf("%s", &chuyenNganh);  
     
-    printf("\n---- Thong tin ca nhan cua ban---------\n");
-    printf("Ho ten cua ban la: %s\n",&hoTen);
-    printf("Tuoi cua ban la: %d\n",tuoi);
-    printf("Dia chi cua ban la: %s\n", diaChi);
-    printf("Hoc ki cua ban la: %s\n",&hocKi);
-    printf("Chuyen nganh cua ban la: %s\n",&chuyenNganh);
-    printf("\n");
+    	printf("\n---- Thong tin ca nhan cua ban---------\n");
+    	printf("Ho ten cua ban la: %s\n",&hoTen);
+    	printf("Tuoi cua ban la: %d\n",tuoi);
+    	printf("Dia chi cua ban la: %s\n", diaChi);
+    	printf("Hoc ki cua ban la: %s\n",&hocKi);
+    	printf("Chuyen nganh cua ban la: %s\n",&chuyenNganh);
+    	printf("\n");
 }
 // ham tinh tong S(n)
 int TinhTong(){
@@ -69,7 +69,7 @@ int main()
 			case 1:
 				ThongTinCaNhan();
 				break;
-       		case 2:
+       			case 2:
 				TinhTong();
 				break;
 			case 3:

@@ -37,13 +37,13 @@ int TinhTong(){
   	S = 0;
   	printf("\nNhap vao so n: ");
   	scanf("%d", &n);
-  	
   	for(int i = 1; i <= n; i++)
     {
         S = S + i;
     }
-  	printf("\nTong S =(1 + 2 + ... + %d) là: %ld\n", n, S);
+  	printf("\nTong S =(1 + 2 + ... + %d) la: %ld\n", n, S);
 }
+
 void StudentInfo(){
 	printf("------- Thong tin sin sinh vien cac lop ----------\n");
 	
